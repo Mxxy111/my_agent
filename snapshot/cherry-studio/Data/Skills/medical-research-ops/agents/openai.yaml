@@ -1,0 +1,4 @@
+interface:
+  display_name: "Medical ResearchOps"
+  short_description: "Orchestrate auditable medical research workflows"
+  default_prompt: "Use Medical ResearchOps to plan and run this medical research task with evidence and approval gates."

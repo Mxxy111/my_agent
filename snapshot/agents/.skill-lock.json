@@ -1,0 +1,530 @@
+{
+  "version": 3,
+  "skills": {
+    "mcp-builder": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/mcp-builder/SKILL.md",
+      "skillFolderHash": "b866bcfb57b780c10b587c7b543e871a91661ce0",
+      "pluginName": "example-skills",
+      "installedAt": "2026-05-06T15:19:43.878Z",
+      "updatedAt": "2026-05-06T15:19:43.878Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-05-06T15:20:07.742Z",
+      "updatedAt": "2026-05-06T15:20:07.742Z"
+    },
+    "api-and-interface-design": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/api-and-interface-design/SKILL.md",
+      "skillFolderHash": "79410f2b6928b5ecb760e34e4c58c68de71f7fd8",
+      "installedAt": "2026-05-06T15:33:21.671Z",
+      "updatedAt": "2026-05-06T15:33:21.671Z"
+    },
+    "browser-testing-with-devtools": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/browser-testing-with-devtools/SKILL.md",
+      "skillFolderHash": "cc384fa24e1cb8e9adddb9d7491164415d156a32",
+      "installedAt": "2026-05-06T15:33:21.701Z",
+      "updatedAt": "2026-05-06T15:33:21.701Z"
+    },
+    "ci-cd-and-automation": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/ci-cd-and-automation/SKILL.md",
+      "skillFolderHash": "34db321777a17e268ac425f0f7f2501dda55c955",
+      "installedAt": "2026-05-06T15:33:21.723Z",
+      "updatedAt": "2026-05-06T15:33:21.723Z"
+    },
+    "code-review-and-quality": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/code-review-and-quality/SKILL.md",
+      "skillFolderHash": "e1edec4a273dbc65b6f3d2d6e56858783047b705",
+      "installedAt": "2026-05-06T15:33:21.747Z",
+      "updatedAt": "2026-05-06T15:33:21.747Z"
+    },
+    "code-simplification": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/code-simplification/SKILL.md",
+      "skillFolderHash": "15b6e21924188ee46402a8c91963162fd9056c7d",
+      "installedAt": "2026-05-06T15:33:21.776Z",
+      "updatedAt": "2026-05-06T15:33:21.776Z"
+    },
+    "context-engineering": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/context-engineering/SKILL.md",
+      "skillFolderHash": "453c3e8d973ddb10402b7c4e6b0d7fce295a43a8",
+      "installedAt": "2026-05-06T15:33:21.804Z",
+      "updatedAt": "2026-05-06T15:33:21.804Z"
+    },
+    "debugging-and-error-recovery": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/debugging-and-error-recovery/SKILL.md",
+      "skillFolderHash": "d7f832d654e1a16755dcece28bf53a112dbcf0ce",
+      "installedAt": "2026-05-06T15:33:21.832Z",
+      "updatedAt": "2026-05-06T15:33:21.832Z"
+    },
+    "deprecation-and-migration": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/deprecation-and-migration/SKILL.md",
+      "skillFolderHash": "d80eaf65b255911ece940e91f9aa6008240fd2bb",
+      "installedAt": "2026-05-06T15:33:21.863Z",
+      "updatedAt": "2026-05-06T15:33:21.863Z"
+    },
+    "documentation-and-adrs": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/documentation-and-adrs/SKILL.md",
+      "skillFolderHash": "df79e5ccc01e5169e61ec0c98196d171617b4458",
+      "installedAt": "2026-05-06T15:33:21.896Z",
+      "updatedAt": "2026-05-06T15:33:21.896Z"
+    },
+    "frontend-ui-engineering": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/frontend-ui-engineering/SKILL.md",
+      "skillFolderHash": "7c86ee1c42a9bbe3ef80c774a4bd5a49668513fb",
+      "installedAt": "2026-05-06T15:33:21.913Z",
+      "updatedAt": "2026-05-06T15:33:21.913Z"
+    },
+    "git-workflow-and-versioning": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/git-workflow-and-versioning/SKILL.md",
+      "skillFolderHash": "c705111c81c8da2e62d836f9e22d8a7d39a2c9de",
+      "installedAt": "2026-05-06T15:33:21.944Z",
+      "updatedAt": "2026-05-06T15:33:21.944Z"
+    },
+    "idea-refine": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/idea-refine/SKILL.md",
+      "skillFolderHash": "ed6434c55186c0f4fe976d40f8a9380b336459c8",
+      "installedAt": "2026-05-06T15:33:21.973Z",
+      "updatedAt": "2026-05-06T15:33:21.973Z"
+    },
+    "incremental-implementation": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/incremental-implementation/SKILL.md",
+      "skillFolderHash": "ad0fb55d493cf7aa7e89f3637abb10e345a07218",
+      "installedAt": "2026-05-06T15:33:21.991Z",
+      "updatedAt": "2026-05-06T15:33:21.991Z"
+    },
+    "performance-optimization": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/performance-optimization/SKILL.md",
+      "skillFolderHash": "f904d17bd259a81493209cfc3f3c00cafd321b3a",
+      "installedAt": "2026-05-06T15:33:22.021Z",
+      "updatedAt": "2026-05-06T15:33:22.021Z"
+    },
+    "planning-and-task-breakdown": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/planning-and-task-breakdown/SKILL.md",
+      "skillFolderHash": "7122f9fa302c8e879fe7bd4e8ca401ffb7b2aec7",
+      "installedAt": "2026-05-06T15:33:22.050Z",
+      "updatedAt": "2026-05-06T15:33:22.050Z"
+    },
+    "security-and-hardening": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/security-and-hardening/SKILL.md",
+      "skillFolderHash": "f8b6967599b2101d651fbe6a5377ab3f8c74470c",
+      "installedAt": "2026-05-06T15:33:22.081Z",
+      "updatedAt": "2026-05-06T15:33:22.081Z"
+    },
+    "shipping-and-launch": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/shipping-and-launch/SKILL.md",
+      "skillFolderHash": "5fdf87bd28e41a9ed3cf82be0e86e249e6a117e0",
+      "installedAt": "2026-05-06T15:33:22.112Z",
+      "updatedAt": "2026-05-06T15:33:22.112Z"
+    },
+    "source-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/source-driven-development/SKILL.md",
+      "skillFolderHash": "f935ca8f7220760d619a02b55948ad534f4078b5",
+      "installedAt": "2026-05-06T15:33:22.142Z",
+      "updatedAt": "2026-05-06T15:33:22.142Z"
+    },
+    "spec-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/spec-driven-development/SKILL.md",
+      "skillFolderHash": "f7a7b044850057a693b72298317dd886d38a7c6b",
+      "installedAt": "2026-05-06T15:33:22.175Z",
+      "updatedAt": "2026-05-06T15:33:22.175Z"
+    },
+    "test-driven-development": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/test-driven-development/SKILL.md",
+      "skillFolderHash": "f042b13b4a85bd4e430347394adee937a7560b85",
+      "installedAt": "2026-05-06T15:33:22.208Z",
+      "updatedAt": "2026-05-06T15:33:22.208Z"
+    },
+    "using-agent-skills": {
+      "source": "addyosmani/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills.git",
+      "skillPath": "skills/using-agent-skills/SKILL.md",
+      "skillFolderHash": "6fcb7486f14783fdbafd9bfdccd07af372eb74ef",
+      "installedAt": "2026-05-06T15:33:22.243Z",
+      "updatedAt": "2026-05-06T15:33:22.243Z"
+    },
+    "paper-analyzer": {
+      "source": "zsyggg/paper-craft-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/zsyggg/paper-craft-skills.git",
+      "skillPath": "skills/paper-analyzer/SKILL.md",
+      "skillFolderHash": "7d985ade995742044a2e8c7c29de1aefe0c3001c",
+      "installedAt": "2026-05-25T06:41:45.693Z",
+      "updatedAt": "2026-05-25T06:41:45.693Z"
+    },
+    "paper-comic": {
+      "source": "zsyggg/paper-craft-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/zsyggg/paper-craft-skills.git",
+      "skillPath": "skills/paper-comic/SKILL.md",
+      "skillFolderHash": "f0cb7f8b1e600a9eb393d6bbef4bf5ee1b326917",
+      "installedAt": "2026-05-25T06:41:45.730Z",
+      "updatedAt": "2026-05-25T06:41:45.730Z"
+    },
+    "paper-deck": {
+      "source": "zsyggg/paper-craft-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/zsyggg/paper-craft-skills.git",
+      "skillPath": "skills/paper-deck/SKILL.md",
+      "skillFolderHash": "b74dc0e8898938f8e8b8f3772af572edeb71eb68",
+      "installedAt": "2026-05-25T06:41:45.769Z",
+      "updatedAt": "2026-05-25T06:41:45.769Z"
+    },
+    "nature-academic-search": {
+      "source": "Yuan1z0825/nature-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yuan1z0825/nature-skills.git",
+      "skillPath": "skills/nature-academic-search/SKILL.md",
+      "skillFolderHash": "c28b994285467d22ec4a44c4ab712070127d12af7382c11bb4261729629d50c6",
+      "installedAt": "2026-05-25T06:46:01.829Z",
+      "updatedAt": "2026-05-25T06:46:01.829Z"
+    },
+    "nature-citation": {
+      "source": "Yuan1z0825/nature-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yuan1z0825/nature-skills.git",
+      "skillPath": "skills/nature-citation/SKILL.md",
+      "skillFolderHash": "6e4d16043a5709275ada9060f7c5919f2dfe7dc3a94de03cd3c45fbb166efa5d",
+      "installedAt": "2026-05-25T06:46:01.836Z",
+      "updatedAt": "2026-05-25T06:46:01.836Z"
+    },
+    "nature-data": {
+      "source": "Yuan1z0825/nature-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yuan1z0825/nature-skills.git",
+      "skillPath": "skills/nature-data/SKILL.md",
+      "skillFolderHash": "efcd874181c060ab02141fdabf4edab86f721e681ec1bd364c234caf94d3c1c5",
+      "installedAt": "2026-05-25T06:46:01.840Z",
+      "updatedAt": "2026-05-25T06:46:01.840Z"
+    },
+    "nature-figure": {
+      "source": "Yuan1z0825/nature-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yuan1z0825/nature-skills.git",
+      "skillPath": "skills/nature-figure/SKILL.md",
+      "skillFolderHash": "efeda1bcb6e0115f5874da2628f326e0fe7c8097f2650c456276cc5adbe0a891",
+      "installedAt": "2026-05-25T06:46:01.877Z",
+      "updatedAt": "2026-05-25T06:46:01.877Z"
+    },
+    "nature-paper2ppt": {
+      "source": "Yuan1z0825/nature-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yuan1z0825/nature-skills.git",
+      "skillPath": "skills/nature-paper2ppt/SKILL.md",
+      "skillFolderHash": "c86c3158eddbbf00a752c17d08aaebb4dbe19bda6cc246bf373e1869689ecc79",
+      "installedAt": "2026-05-25T06:46:01.881Z",
+      "updatedAt": "2026-05-25T06:46:01.881Z"
+    },
+    "nature-polishing": {
+      "source": "Yuan1z0825/nature-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yuan1z0825/nature-skills.git",
+      "skillPath": "skills/nature-polishing/SKILL.md",
+      "skillFolderHash": "38d593388e11b54870d0bc33892283d1561d8470aef660b35941999e098737b9",
+      "installedAt": "2026-05-25T06:46:01.884Z",
+      "updatedAt": "2026-05-25T06:46:01.884Z"
+    },
+    "nature-reader": {
+      "source": "Yuan1z0825/nature-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yuan1z0825/nature-skills.git",
+      "skillPath": "skills/nature-reader/SKILL.md",
+      "skillFolderHash": "9ae1f1147d36875f30035e0f619fb9d042189301833178c7c828e8efb9054c91",
+      "installedAt": "2026-05-25T06:46:01.889Z",
+      "updatedAt": "2026-05-25T06:46:01.889Z"
+    },
+    "nature-response": {
+      "source": "Yuan1z0825/nature-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yuan1z0825/nature-skills.git",
+      "skillPath": "skills/nature-response/SKILL.md",
+      "skillFolderHash": "2d6bfe50cb8881633309daf400cc822f82bef82080e090102ac016da7d476b28",
+      "installedAt": "2026-05-25T06:46:01.893Z",
+      "updatedAt": "2026-05-25T06:46:01.893Z"
+    },
+    "nature-writing": {
+      "source": "Yuan1z0825/nature-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yuan1z0825/nature-skills.git",
+      "skillPath": "skills/nature-writing/SKILL.md",
+      "skillFolderHash": "0e173ea598c3f4d54f20a4f5b96ac4c5132ef79a17646f097bbb2a72166a96af",
+      "installedAt": "2026-05-25T06:46:01.899Z",
+      "updatedAt": "2026-05-25T06:46:01.899Z"
+    },
+    "karpathy-guidelines": {
+      "source": "multica-ai/andrej-karpathy-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/multica-ai/andrej-karpathy-skills.git",
+      "skillPath": "skills/karpathy-guidelines/SKILL.md",
+      "skillFolderHash": "0ec1641120accbb458780e0bd19a50a4182f2b97863e90851b91307f29802c9f",
+      "pluginName": "andrej-karpathy-skills",
+      "installedAt": "2026-05-25T06:48:45.141Z",
+      "updatedAt": "2026-05-25T06:48:45.141Z"
+    },
+    "research-writing": {
+      "source": "alfonso0512/research-writing-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/alfonso0512/research-writing-skill.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "291ba9d673b90ad466924fc28956056b98048ad7",
+      "installedAt": "2026-05-25T06:55:04.198Z",
+      "updatedAt": "2026-05-25T06:55:04.198Z"
+    },
+    "defuddle": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
+      "skillPath": "skills/defuddle/SKILL.md",
+      "skillFolderHash": "db0b775af7e7d603f59fa2b67bdef615baf1a48f",
+      "installedAt": "2026-05-26T04:48:59.291Z",
+      "updatedAt": "2026-05-26T04:48:59.291Z"
+    },
+    "json-canvas": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
+      "skillPath": "skills/json-canvas/SKILL.md",
+      "skillFolderHash": "9df7971db7ffebf96f2a207840b9f4765aa11b04",
+      "installedAt": "2026-05-26T04:48:59.301Z",
+      "updatedAt": "2026-05-26T04:48:59.301Z"
+    },
+    "obsidian-bases": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-bases/SKILL.md",
+      "skillFolderHash": "4bef60bb848bfb02b4172b552626d5741b0d4057",
+      "installedAt": "2026-05-26T04:48:59.305Z",
+      "updatedAt": "2026-05-26T04:48:59.305Z"
+    },
+    "obsidian-cli": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-cli/SKILL.md",
+      "skillFolderHash": "96254a554e480359de7b685571876f2e7f9ba57d",
+      "installedAt": "2026-05-26T04:48:59.310Z",
+      "updatedAt": "2026-05-26T04:48:59.310Z"
+    },
+    "obsidian-markdown": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/kepano/obsidian-skills.git",
+      "skillPath": "skills/obsidian-markdown/SKILL.md",
+      "skillFolderHash": "5caf5d9e7de204f3904216857545f2aa36bcfcac",
+      "installedAt": "2026-05-26T04:48:59.314Z",
+      "updatedAt": "2026-05-26T04:48:59.314Z"
+    },
+    "humanize-academic-writing": {
+      "source": "momo2young/humanize-academic-writing",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/momo2young/humanize-academic-writing.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "5ced86855fd804234af120412ae62d8757a7236f",
+      "installedAt": "2026-05-26T15:51:34.764Z",
+      "updatedAt": "2026-05-26T15:51:34.764Z"
+    },
+    "brandkit": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/brandkit/SKILL.md",
+      "skillFolderHash": "d278ff748cafab01e4ae5dd7758fc0b53258621c",
+      "installedAt": "2026-06-28T10:07:01.008Z",
+      "updatedAt": "2026-06-28T10:07:01.008Z"
+    },
+    "industrial-brutalist-ui": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/brutalist-skill/SKILL.md",
+      "skillFolderHash": "f812ede7e5c34cf680f629911e9f9ac05e416cf4",
+      "installedAt": "2026-06-28T10:07:01.011Z",
+      "updatedAt": "2026-06-28T10:07:01.011Z"
+    },
+    "gpt-taste": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/gpt-tasteskill/SKILL.md",
+      "skillFolderHash": "c87d529ad945cd35985b19475bf53f41682d4f69",
+      "installedAt": "2026-06-28T10:07:01.013Z",
+      "updatedAt": "2026-06-28T10:07:01.013Z"
+    },
+    "image-to-code": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/image-to-code-skill/SKILL.md",
+      "skillFolderHash": "701b3cb89c061fcf98a98f639e0b0b5c0b492479",
+      "installedAt": "2026-06-28T10:07:01.014Z",
+      "updatedAt": "2026-06-28T10:07:01.014Z"
+    },
+    "imagegen-frontend-mobile": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/imagegen-frontend-mobile/SKILL.md",
+      "skillFolderHash": "9901fcde67e9506a706912107825fdfb72e01f30",
+      "installedAt": "2026-06-28T10:07:01.015Z",
+      "updatedAt": "2026-06-28T10:07:01.015Z"
+    },
+    "imagegen-frontend-web": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/imagegen-frontend-web/SKILL.md",
+      "skillFolderHash": "3b5117d349200e33f9c3399344681620079dcc18",
+      "installedAt": "2026-06-28T10:07:01.016Z",
+      "updatedAt": "2026-06-28T10:07:01.016Z"
+    },
+    "minimalist-ui": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/minimalist-skill/SKILL.md",
+      "skillFolderHash": "5509c012862cda27e2ed7efae89ed940ecc53add",
+      "installedAt": "2026-06-28T10:07:01.018Z",
+      "updatedAt": "2026-06-28T10:07:01.018Z"
+    },
+    "full-output-enforcement": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/output-skill/SKILL.md",
+      "skillFolderHash": "3dd6ad49b667d15182acddc9d3e4f7763ae33c9c",
+      "installedAt": "2026-06-28T10:07:01.019Z",
+      "updatedAt": "2026-06-28T10:07:01.019Z"
+    },
+    "redesign-existing-projects": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/redesign-skill/SKILL.md",
+      "skillFolderHash": "d9cffe56d26d4af7687299e391a7be1cfaf46c1b",
+      "installedAt": "2026-06-28T10:07:01.021Z",
+      "updatedAt": "2026-06-28T10:07:01.021Z"
+    },
+    "high-end-visual-design": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/soft-skill/SKILL.md",
+      "skillFolderHash": "1b5943432ddd1b980206968c529a323cc992dbec",
+      "installedAt": "2026-06-28T10:07:01.022Z",
+      "updatedAt": "2026-06-28T10:07:01.022Z"
+    },
+    "stitch-design-taste": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/stitch-skill/SKILL.md",
+      "skillFolderHash": "de2038cf286b31f33b397c1308455dbc17ef26f3",
+      "installedAt": "2026-06-28T10:07:01.023Z",
+      "updatedAt": "2026-06-28T10:07:01.023Z"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "skillFolderHash": "a6d128e53b4ec0238baee751dde33bf707adb5ec",
+      "installedAt": "2026-06-28T10:07:01.025Z",
+      "updatedAt": "2026-06-28T10:07:01.025Z"
+    },
+    "design-taste-frontend-v1": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Leonxlnx/taste-skill.git",
+      "skillPath": "skills/taste-skill-v1/SKILL.md",
+      "skillFolderHash": "3642ecef471a6ee4d9d485feea6df8ba92616b78",
+      "installedAt": "2026-06-28T10:07:01.027Z",
+      "updatedAt": "2026-06-28T10:07:01.027Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "claude-code"
+  ]
+}

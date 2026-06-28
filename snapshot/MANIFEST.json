@@ -1,0 +1,97 @@
+﻿{
+    "generatedAt":  "2026-06-29T00:21:45.4931201+08:00",
+    "computer":  "DESTINY",
+    "user":  "HUAWEI",
+    "sources":  [
+                    {
+                        "name":  "agents-skills",
+                        "kind":  "directory",
+                        "source":  "%USERPROFILE%\\.agents\\skills",
+                        "target":  "agents/skills"
+                    },
+                    {
+                        "name":  "agents-plugins",
+                        "kind":  "directory",
+                        "source":  "%USERPROFILE%\\.agents\\plugins",
+                        "target":  "agents/plugins"
+                    },
+                    {
+                        "name":  "agents-skill-lock",
+                        "kind":  "file",
+                        "source":  "%USERPROFILE%\\.agents\\.skill-lock.json",
+                        "target":  "agents/.skill-lock.json"
+                    },
+                    {
+                        "name":  "codex-skills",
+                        "kind":  "directory",
+                        "source":  "%USERPROFILE%\\.codex\\skills",
+                        "target":  "codex/skills"
+                    },
+                    {
+                        "name":  "codex-rules",
+                        "kind":  "directory",
+                        "source":  "%USERPROFILE%\\.codex\\rules",
+                        "target":  "codex/rules"
+                    },
+                    {
+                        "name":  "codex-config",
+                        "kind":  "file",
+                        "source":  "%USERPROFILE%\\.codex\\config.toml",
+                        "target":  "codex/config.toml"
+                    },
+                    {
+                        "name":  "codex-agents-md",
+                        "kind":  "file",
+                        "source":  "%USERPROFILE%\\.codex\\AGENTS.md",
+                        "target":  "codex/AGENTS.md"
+                    },
+                    {
+                        "name":  "codex-local-plugins",
+                        "kind":  "directory",
+                        "source":  "%USERPROFILE%\\.codex\\plugins\\cache\\local",
+                        "target":  "codex/plugins/local"
+                    },
+                    {
+                        "name":  "claude-settings",
+                        "kind":  "file",
+                        "source":  "%USERPROFILE%\\.claude\\settings.json",
+                        "target":  "claude/settings.json"
+                    },
+                    {
+                        "name":  "claude-config",
+                        "kind":  "file",
+                        "source":  "%USERPROFILE%\\.claude\\config.json",
+                        "target":  "claude/config.json"
+                    },
+                    {
+                        "name":  "cherry-config",
+                        "kind":  "file",
+                        "source":  "%APPDATA%\\CherryStudio\\config.json",
+                        "target":  "cherry-studio/config.json"
+                    },
+                    {
+                        "name":  "cherry-preferences",
+                        "kind":  "file",
+                        "source":  "%APPDATA%\\CherryStudio\\Preferences",
+                        "target":  "cherry-studio/Preferences"
+                    },
+                    {
+                        "name":  "cherry-window-state",
+                        "kind":  "file",
+                        "source":  "%APPDATA%\\CherryStudio\\window-state.json",
+                        "target":  "cherry-studio/window-state.json"
+                    },
+                    {
+                        "name":  "cherry-agents",
+                        "kind":  "directory",
+                        "source":  "%APPDATA%\\CherryStudio\\Data\\Agents",
+                        "target":  "cherry-studio/Data/Agents"
+                    },
+                    {
+                        "name":  "cherry-skills",
+                        "kind":  "directory",
+                        "source":  "%APPDATA%\\CherryStudio\\Data\\Skills",
+                        "target":  "cherry-studio/Data/Skills"
+                    }
+                ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course Paper Workflow"
+  short_description: "Course paper and humanities/social-science report workflow"
+  default_prompt: "Use $course-paper-workflow to turn my assignment requirements into an approved topic, argument plan, evidence-backed draft, humanized revision, and final course-paper submission."

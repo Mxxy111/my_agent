@@ -1,0 +1,13 @@
+﻿{
+	"clientId": "8ec6d553-4dd5-4fc2-acbf-eaf4325d15eb",
+	"theme": "system",
+	"launchToTray": true,
+	"autoUpdate": true,
+	"gitBashPath": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"gitBashPathSource": "auto",
+	"selectionAssistantEnabled": true,
+	"enableDataCollection": false,
+	"enableQuickAssistant": false,
+	"clickTrayToShowQuickAssistant": true,
+	"tray": true
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Project Workflow"
+  short_description: "Full paper workflow with traceability, review, and humanization gates"
+  default_prompt: "Use $paper-project-workflow to turn my initial paper requirements into an approved topic, project contract, evidence-backed draft, post-draft humanized revision, source-traceable review, and final submission package."

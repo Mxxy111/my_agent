@@ -1,0 +1,34 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+
+# Never commit captured credentials or runtime state.
+snapshot/**/auth.json
+snapshot/**/*auth*.json
+snapshot/**/*credential*
+snapshot/**/*token*
+snapshot/**/*secret*
+snapshot/**/*session*
+snapshot/**/*password*
+snapshot/**/*.sqlite
+snapshot/**/*.sqlite-*
+snapshot/**/*.db
+snapshot/**/*.db-*
+snapshot/**/*.wal
+snapshot/**/*.log
+
+# Electron/browser caches and stores that often contain session data.
+snapshot/**/Cache/
+snapshot/**/Code Cache/
+snapshot/**/GPUCache/
+snapshot/**/Crashpad/
+snapshot/**/Network/
+snapshot/**/IndexedDB/
+snapshot/**/Local Storage/
+snapshot/**/Session Storage/
+snapshot/**/WebStorage/
+snapshot/**/blob_storage/
+snapshot/**/Partitions/

@@ -1,0 +1,43 @@
+﻿{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "[REDACTED_SECRET]",
+    "ANTHROPIC_BASE_URL": "https://api.siliconflow.cn",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-ai/DeepSeek-V4-Pro",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME": "deepseek-ai/DeepSeek-V4-Pro",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "zai-org/GLM-5.2[1M]",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "zai-org/GLM-5.2",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "Pro/moonshotai/Kimi-K2.6",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL_NAME": "Pro/moonshotai/Kimi-K2.6",
+    "ANTHROPIC_MODEL": "deepseek-ai/DeepSeek-V4-Flash",
+    "ANTHROPIC_REASONING_MODEL": "Pro/zai-org/GLM-5.1"
+  },
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "allow": [
+      "mcp__consensus__*"
+    ]
+  },
+  "model": "opus",
+  "enabledPlugins": {
+    "academic-research-skills@academic-research-skills": true,
+    "andrej-karpathy-skills@karpathy-skills": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "academic-research-skills": {
+      "source": {
+        "source": "github",
+        "repo": "Imbad0202/academic-research-skills"
+      }
+    },
+    "karpathy-skills": {
+      "source": {
+        "source": "github",
+        "repo": "forrestchang/andrej-karpathy-skills"
+      }
+    }
+  },
+  "alwaysThinkingEnabled": false,
+  "effortLevel": "medium"
+}
+

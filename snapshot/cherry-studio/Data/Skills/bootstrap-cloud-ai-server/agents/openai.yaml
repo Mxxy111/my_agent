@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bootstrap Cloud AI Server"
+  short_description: "Set up an Ubuntu AI coding server"
+  default_prompt: "Use $bootstrap-cloud-ai-server to provision and verify a fresh Ubuntu cloud server with Codex, Claude Code, cc-switch, and Mihomo/ClashTui."
