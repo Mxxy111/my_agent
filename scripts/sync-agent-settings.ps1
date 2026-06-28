@@ -261,7 +261,8 @@ function Write-Manifest {
     New-Item -ItemType Directory -Force -Path $SnapshotRoot | Out-Null
 
     $manifest = [ordered]@{
-        generatedAt = (Get-Date).ToString('o')
+        manifestVersion = 1
+        generatedBy = 'scripts/sync-agent-settings.ps1'
         computer = $env:COMPUTERNAME
         user = $env:USERNAME
         sources = @($Config.sources | ForEach-Object {

@@ -1,5 +1,6 @@
 ﻿{
-    "generatedAt":  "2026-06-29T00:23:09.8065493+08:00",
+    "manifestVersion":  1,
+    "generatedBy":  "scripts/sync-agent-settings.ps1",
     "computer":  "DESTINY",
     "user":  "HUAWEI",
     "sources":  [
