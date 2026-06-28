@@ -7,6 +7,9 @@ desktop.ini
 
 # Never commit captured credentials or runtime state.
 snapshot/**/auth.json
+snapshot/**/.git/
+snapshot/**/.hg/
+snapshot/**/.svn/
 snapshot/**/*auth*.json
 snapshot/**/*credential*
 snapshot/**/*token*

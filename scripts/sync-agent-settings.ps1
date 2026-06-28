@@ -112,6 +112,20 @@ function Copy-ConfiguredDirectory {
 
     Assert-UnderPath -Path $Destination -Root $SnapshotRoot
 
+    $defaultExcludeDirectories = @(
+        '.git',
+        '.hg',
+        '.svn',
+        '__pycache__',
+        '.pytest_cache',
+        '.mypy_cache',
+        '.ruff_cache',
+        '.venv',
+        'venv',
+        'node_modules'
+    )
+    $effectiveExcludeDirectories = @($defaultExcludeDirectories + $ExcludeDirectories | Select-Object -Unique)
+
     if ($DryRun) {
         Write-Host "[dry-run] directory $Source -> $Destination"
         return
@@ -132,9 +146,9 @@ function Copy-ConfiguredDirectory {
         '/NP'
     )
 
-    if ($ExcludeDirectories.Count -gt 0) {
+    if ($effectiveExcludeDirectories.Count -gt 0) {
         $robocopyArgs += '/XD'
-        $robocopyArgs += $ExcludeDirectories
+        $robocopyArgs += $effectiveExcludeDirectories
     }
 
     if ($ExcludeFiles.Count -gt 0) {
